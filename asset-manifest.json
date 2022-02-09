@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PixelPerfect/static/css/main.d66a2c2f.css",
-    "main.js": "/PixelPerfect/static/js/main.1e967965.js",
+    "main.css": "/PixelPerfect/static/css/main.dcd0bc9e.css",
+    "main.js": "/PixelPerfect/static/js/main.c767cd7e.js",
     "static/js/787.ccca6db8.chunk.js": "/PixelPerfect/static/js/787.ccca6db8.chunk.js",
     "static/media/Livvic-Bold.ttf": "/PixelPerfect/static/media/Livvic-Bold.089af19ac41ce144a96c.ttf",
     "static/media/Livvic-SemiBold.ttf": "/PixelPerfect/static/media/Livvic-SemiBold.c79c53d29c413ab69adb.ttf",
@@ -9,12 +9,12 @@
     "static/media/story3.png": "/PixelPerfect/static/media/story3.721e3cf453f0fa5760c3.png",
     "static/media/story2.png": "/PixelPerfect/static/media/story2.6fcd03c34fc778ff9248.png",
     "index.html": "/PixelPerfect/index.html",
-    "main.d66a2c2f.css.map": "/PixelPerfect/static/css/main.d66a2c2f.css.map",
-    "main.1e967965.js.map": "/PixelPerfect/static/js/main.1e967965.js.map",
+    "main.dcd0bc9e.css.map": "/PixelPerfect/static/css/main.dcd0bc9e.css.map",
+    "main.c767cd7e.js.map": "/PixelPerfect/static/js/main.c767cd7e.js.map",
     "787.ccca6db8.chunk.js.map": "/PixelPerfect/static/js/787.ccca6db8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d66a2c2f.css",
-    "static/js/main.1e967965.js"
+    "static/css/main.dcd0bc9e.css",
+    "static/js/main.c767cd7e.js"
   ]
 }
