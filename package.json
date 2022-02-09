@@ -1,7 +1,7 @@
 {
   "name": "react-starter",
-  "homepage":"https://OmerDahan10.github.io/PixelPerfect",
   "version": "0.1.0",
+  "homepage":"https://OmerDahan10.github.io/PixelPerfect",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",

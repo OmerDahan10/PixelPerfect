@@ -11,7 +11,7 @@ export function RootCmp() {
       </header>
       <main>
        <Routes>
-          <Route element = {<HomePage/>} path='/'/>
+          <Route element = {<HomePage/>} path='/PixelPerfect'/>
        </Routes>
       </main>
     </div>
