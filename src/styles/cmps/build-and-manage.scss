@@ -1,0 +1,42 @@
+.build-and-manage{
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    // gap: 1rem;
+    color: white;
+    width: 100%;
+    max-width: 1115px;
+    padding: 5rem 0 ;
+    
+
+    .main-text{
+       font-size: 3rem;
+       font-family: Livvic-Bold; 
+       line-height: 3rem;
+    }
+
+    .details{
+        
+        .detaile{
+          display: flex;
+          align-items: flex-start;
+          gap: 2rem;
+          padding: 0.8rem 0;
+
+          &:first-child{
+              gap: 2.9rem;
+          }
+
+          .details-text-header{
+             font-family: Livvic-Bold;
+             color: #f67e7e;
+          }
+
+          p{
+              font-family: Livvic-SemiBold;
+              font-size: 14px;
+              line-height: 1.562rem;
+          }
+        }
+    }
+}

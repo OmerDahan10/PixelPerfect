@@ -1,0 +1,38 @@
+.find-the-best{
+    display: flex;
+     justify-content: space-between;
+    width: 100%;
+    max-width: 1115px;
+    padding: 2rem ;
+    align-items: baseline;
+    height: 500px;
+    position: relative;
+
+    .find-the-best-talent{
+        font-family:Livvic-Bold;
+        font-size: 6rem;
+        color: white;
+        line-height: 100px;
+    }
+
+    p{
+        font-family: Livvic-SemiBold;
+        line-height: 1.75rem;
+        color: white;
+        margin: 0;
+    }
+
+    .semi-circle{
+        position: absolute;
+        bottom: -100px;
+        right: 25px;
+        z-index: 1;
+        
+    }
+    .semi-circle-black{
+        position: absolute;
+        bottom: -100px;
+        right: 0;
+        
+    }
+}

@@ -1,0 +1,38 @@
+.App-header{
+    background-color: #014e56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .header{
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        padding: 2rem;
+        max-width:1115px ;
+        width: 100%;
+        
+        .main-nav{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            color: white;
+            
+            img{
+                width: 160px;
+                margin-inline-end: 1rem;
+            }
+        }
+
+        .contact{
+            font-family: Livvic-SemiBold;
+            background-color: inherit;
+            border: 1px solid white;
+            color: white;
+            border-radius: 25px;
+            padding: 10px 25px;
+            font-size: 1rem;
+        }
+    }
+}

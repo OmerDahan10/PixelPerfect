@@ -1,0 +1,46 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+
+//FONTS
+@font-face {
+  font-family: "Livvic-Bold";
+  src: url("./fonts/Livvic-Bold.ttf");
+}
+@font-face {
+  font-family: "Livvic-SemiBold";
+  src: url("./fonts/Livvic-SemiBold.ttf");
+}
+
+
+//CMPS
+@import './cmps/find-the-best.scss';
+@import './cmps/header.scss';
+@import './cmps/build-and-manage.scss';
+@import './cmps/succes-stories.scss';
+
+
+//HELPERS
+
+.pink{
+  color:#f67e7e;
+}
+
+.brighter{
+  background-color: #014e56;
+}
+
+.darker{
+  background-color: #012f34;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
