@@ -1,18 +1,21 @@
 .find-the-best{
     display: flex;
-     justify-content: space-between;
+    //  justify-content: space-between;
+     flex-direction: column;
+     align-items: center;
+     gap: 1rem;
     width: 100%;
     max-width: 1115px;
     padding: 2rem ;
-    align-items: baseline;
     height: 500px;
     position: relative;
 
     .find-the-best-talent{
         font-family:Livvic-Bold;
-        font-size: 6rem;
+        font-size: 2.5rem;
         color: white;
-        line-height: 100px;
+        line-height: 2.5rem;
+        text-align: center;
     }
 
     p{
@@ -20,6 +23,11 @@
         line-height: 1.75rem;
         color: white;
         margin: 0;
+        // text-align: center;
+
+        br{
+            display: none;
+        }
     }
 
     .semi-circle{
@@ -34,5 +42,29 @@
         bottom: -100px;
         right: 0;
         
+    }
+}
+
+
+@media (min-width:500px){
+    .find-the-best{
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: baseline;
+       gap: 0;
+        .find-the-best-talent{
+            font-size: 6rem;
+            line-height: 100px;
+            text-align: initial;
+        }
+
+        p{
+            text-align: initial;
+            line-height: 1.75rem;
+
+            br{
+                display: block;
+            }
+        }
     }
 }

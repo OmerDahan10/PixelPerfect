@@ -3,8 +3,9 @@ color: white;
 padding: 2rem;
     .stories-header{
         font-family: Livvic-Bold;
-       font-size: 3rem;
-       line-height: 3rem;
+       font-size: 2rem;
+       line-height: 2rem;
+       margin-bottom: 4rem;
        text-align: center;
        span{
            color:#52bbc7 ;
@@ -13,17 +14,20 @@ padding: 2rem;
 
     .stories{
         display: flex;
+        flex-direction: column;
         position: relative;
         gap: 2rem;
         font-family: Livvic-SemiBold;
        .story{
-
+        flex-grow: 1fr;
         display: flex;
         flex-direction: column;
+        position: relative;
         align-items: center;
 
            .quoute{
                position: absolute;
+               top: -20px;
             }
             
         p{
@@ -50,5 +54,18 @@ padding: 2rem;
             }
         }
     }
+    }
+}
+
+@media (min-width:500px){
+    .succes-stories{
+        .stories-header{
+            font-size: 3rem;
+            line-height: 3rem;
+            // margin-bottom: unset;
+        }
+        .stories{
+            flex-direction: row;
+        }
     }
 }
